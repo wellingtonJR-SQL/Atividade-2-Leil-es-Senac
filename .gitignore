@@ -1,0 +1,19 @@
+# NetBeans
+build/
+dist/
+nbproject/private/
+nbbuild/
+nbdist/
+
+# Compilados (mas mantém os jars de dependência em lib/)
+*.class
+*.jar
+!lib/*.jar
+
+# Configurações de IDE
+*.iml
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
